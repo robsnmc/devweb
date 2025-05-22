@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+
+img{
+    opacity: 1;
+    /*
+    width: 35%;
+    height: auto;
+    */
+    border-radius: 50%;
+    padding: 5px;
+    border: solid 5px #000;
+}

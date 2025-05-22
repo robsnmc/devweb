@@ -1,18 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>AulaRGB</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Imagem de uma foto!</h1>
-
+    <h1>Imagem de um tucano</h1>
+    
     <picture>
-        <source media="(max-width: 600px)" srcset="img/img_200.jpg" type="image/jpg">
-        <source media="(max-width: 900px)" srcset="img/img_500.jpg" type="image/jpg">
-        <img src="img/img_800.jpg" alt="">
+        <source media="(max-width:500px)" srcset="img/img200.jpg"
+         type="image/jpg">
+
+        <source media="(max-width:900px)" srcset="img/img500.jpg" 
+         type="image/jpg">
+
+        <source media="(max-width:1000px)" srcset="img/img800.jpg" 
+        type="image/jpg">
+
+        <img src="img/img800.jpg" alt="imagem tucano">
+        
     </picture>
+    
 </body>
 </html>
